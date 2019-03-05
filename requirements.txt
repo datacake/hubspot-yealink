@@ -1,3 +1,5 @@
 Django==2.1.7
 psycopg2==2.7.7
 django-heroku==0.3.1
+phonenumbers==8.10.6
+requests==2.21.0
