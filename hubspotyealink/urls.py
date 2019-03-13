@@ -16,8 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from yealink.views import phonebook
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('phonebook/', phonebook, name='phonebook'),
+    path(f'phonebook/{settings.URL_TOKEN}/', phonebook, name='phonebook'),
 ]

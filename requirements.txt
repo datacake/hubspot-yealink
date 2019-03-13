@@ -3,3 +3,4 @@ psycopg2==2.7.7
 django-heroku==0.2.0
 phonenumbers==8.10.6
 requests==2.21.0
+gunicorn==19.9.0

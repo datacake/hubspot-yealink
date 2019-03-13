@@ -14,3 +14,4 @@ services:
       - postgres
     environment:
       - DEBUG=True
+      - URL_TOKEN=foobar

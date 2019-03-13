@@ -135,4 +135,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
+URL_TOKEN = os.environ.get('URL_TOKEN', '')
+
 django_heroku.settings(locals())
